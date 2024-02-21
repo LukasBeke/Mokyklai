@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelioniu agentura</title>
+</head>
+<header>
+    <a href="index.html"><img src="https://cdn-icons-png.freepik.com/256/12522/12522953.png"></a>
+    <div><a href="login.html">Log in</a></div>
+    <nav>
+        <a href="index.html#kelioniu">Kelioniu pasiulymai</a>
+        <a href="index.html#autonuoma">Autonuoma</a>
+        <a href="index.html#patarimai">Patarimai keliaujantiems</a>
+        <a href="index.html#kelioniuzurnalas">Kelioniu zurnalas</a>
+    </nav>
+</header>
+<body>
+    <h1>Keliones uzklausos forma</h1>
+    <div>
+        <label for="vardas">Vardas</label>
+        <input type="text" name="vardas" id="vardas" required/>
+    </div>
+    <div>
+    <label for="elekroninispastas">El.pastas</label>
+    <input type="email" name="elektroninispastas" id="elektroninispastas" required/>
+    </div>
+    <div>
+        <label for="tele">Telefono numeris</label>
+        <input type="tel" name="tele" id="tele" required/>
+    </div>
+    <div>
+        <label>Pasirinkite sali</label>
+        <select name="valstybe" id="pasirenkamevalstybe">
+            <option value="">Pasirinkite sali</option>
+            <option>Graikija</option>
+            <option>Ispanija</option>
+            <option>Turkija</option>
+        </select>
+    </div>
+    <div>
+        <label for="data">Pasirinkite data</label>
+        <input type="date" name="data" id="data" required/>
+    </div>
+    <fieldset>
+        <legend>Pasirinkite metu laika</legend>
+        <div>
+            <label for="vasara">Vasara</label>
+            <input type="checkbox" name="vasara" id="vasara"/>
+        </div>
+        <div>
+            <label for="ruduo">Ruduo</label>
+            <input type="checkbox" name="ruduo" id="ruduo"/>
+        </div>
+        <div>
+            <label for="pavasaris">Pavasaris</label>
+            <input type="checkbox" name="pavasaris" id="pavasaris"/>
+        </div>
+        <div>
+            <label for="ziema">Ziema</label>
+            <input type="checkbox" name="ziema" id="ziema"/>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Kada geriausia pradeti kelione?</legend>
+        <div>
+            <label for="rytas">Rytas</label>
+            <input type="radio" name="paroslaikas" id="rytas" checked/>
+        </div>
+        <div>
+            <label for="pietus">Pietus</label>
+            <input type="radio" name="paroslaikas" id="pietus"/>
+        </div>
+        <div>
+            <label for="vakaras">Vakaras</label>
+            <input type="radio" name="paroslaikas" id="vakaras"/>
+        </div>
+        <div>
+            <label for="naktis">Naktis</label>
+            <input type="radio" name="paroslaikas" id="naktis"/>
+        </div>
+
+    </fieldset>
+
+    <label for="tekstas">Papasakokite daugiau:</label>
+    <textarea placeholder="Papasakokite daugiau" rows="5" cols="30"></textarea> 
+    <form action="index.html">
+        <button>Submit</button>
+    </form>
+
+    <footer>
+        <p>Autorius: Lukas Bekevicius</p>
+        <p><a href="mailto:lbekevicius@gmail.com">lbekevicius@gmail.com</a></p>
+        <p>Autorines teises &#169</p>
+    </footer>
+    
+</body>
+</html>
