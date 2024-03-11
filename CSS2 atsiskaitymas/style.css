@@ -1,0 +1,379 @@
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(227, 249, 249);
+    position: fixed;
+    display: flex;
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.meniu{
+    display: flex;
+    gap: 10px;
+}
+
+.background{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg');
+    z-index: -1;
+    opacity: 50%;
+}
+
+.zaidimunamai{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(248, 249, 249);
+    text-align: center;
+    font-size: 30px;
+}
+
+.pultelis{
+    position: absolute;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.top3, .top6{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.zelda1{
+    height: 120px;
+    width: 500px;
+    border-style:solid;
+    border-radius: 15px;
+    text-align:center;
+    display: flex;
+    overflow:hidden;
+}
+
+.soulcalibur{
+    height: 120px;
+    width: 500px;
+    border-style:solid;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.gta5{
+    height: 120px;
+    width: 500px;
+    border-style:solid;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.mario1{
+    height: 120px;
+    width: 500px;
+    border-style:solid;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.mario2{
+    height: 120px;
+    width: 500px;
+    border-style:solid;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.zelda2{
+    height: 120px;
+    width: 500px;
+    border-style:solid;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.randomzdm{
+    width: 200vh;
+    text-align: center;
+}
+
+.art3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: row;
+    gap: 10px;
+    object-fit:contain;
+}
+
+.tony{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow:auto;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/2/2b/Tony_Hawk%27s_Pro_Skater_3_Coverart.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.rdr{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-689098-52.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.metroid{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://assets-prd.ignimgs.com/2021/12/07/metroidprime-1638900247577.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.gta3{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-12656-52.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.marioodyssey{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-624965-52.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.halo{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/1064221/capsule_616x353.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.nfl{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://www.metacritic.com/a/img/catalog/provider/6/3/6-1-9973-13.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.halflife{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Half-Life_2_cover.jpg/220px-Half-Life_2_cover.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bioshock{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-63862-52.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.goldeneye{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://www.metacritic.com/a/img/catalog/provider/6/3/6-1-3974-13.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.uncharted{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-106618-52.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.baldursgate{
+    height: 260px;
+    width: 140px;
+    border-style:solid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://baldursgate3.game/wallpapers/thumbnails/wallpaper-01-thumb.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.boxas{
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/sJnKZsnPjwPhHi965baDN4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pavadinimas{
+    width: 100%;
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.divgalas{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap:20px;
+    justify-content: space-evenly;
+    
+}
+
+.divas1{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: medium;
+}
+
+.divas2{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: medium;
+}
+
+.divas3{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: medium;
+}
+
+.footer {
+    position:static;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.tekstas{
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 480px){
+    .divgalas{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        gap:10px;
+        padding-top: 10%;
+        padding-bottom: 25%;
+    }
+
+    .divas1, .divas2, .divas3 {
+        width: 100%;
+    }
+
+}
