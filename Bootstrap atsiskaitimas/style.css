@@ -1,0 +1,272 @@
+.navbar{
+    position: fixed;
+    width: 70%;
+    z-index: 1000;
+}
+
+.restoranas1 {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.restoranas1 .container-fluid {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.restoranas1 img {
+    float: left;
+    margin-right: 20px;
+    max-width: 100%;
+}
+
+.restoranas2 .container-fluid {
+    padding: 20px;
+}
+
+.restoranas2 img {
+    max-width: 100%;
+}
+
+.restoranas2 {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+}
+
+.restoranas2 > div {
+    flex-grow: 1;
+}
+
+.restoranas2 .text-container {
+    margin-left: 20px; 
+}
+
+.restoranas3 {
+    display: flex;
+    align-items: center;
+}
+
+.restoranas3 .container-fluid {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.restoranas3 img {
+    float: left;
+    margin-right: 20px;
+    max-width: 100%;
+}
+
+.dienospietus{
+    width: 100%;
+    padding-top: 70px;
+}
+
+.pietutekstas{
+    text-align: center;
+    font-size:x-large;
+}
+
+.pietumeniu1 {
+    display: flex;
+    flex-wrap: auto;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px);
+    max-width: 18rem;
+}
+
+.pietumeniu2 {
+    display: flex;
+    flex-wrap: auto;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .pietumeniu1, .pietumeniu2 {
+        flex-direction: column;
+    }
+    .card {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px);
+    max-width: 18rem;
+}
+
+.sventinesvakarienes{
+    width: 100%;
+    padding-top: 70px;
+}
+
+.sventines{
+    text-align: center;
+}
+
+.darbuotojuantraste{
+    width: 100%;
+}
+
+.sefai{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.darbuotojai{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+    .darbuotojai {
+        flex-direction: column;
+    }
+    .card {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.karjera{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.viskas{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.susisiekti{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.susisiekimas {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.susisiekimas > div {
+    flex: 1;
+    max-width: 33.33%;
+    box-sizing: border-box;
+}
+
+.footer{
+    display: flex;
+    font-size: smaller;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.pilkas{
+    color: grey;
+}
+
+.footer1{
+    order: 1;
+}
+
+.footer2{
+    order: 2;
+}
+
+.footer3{
+    order: 3;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer1, .footer2, .footer3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer3 {
+        order: 1;
+    }
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.accordion {
+    width: 100%;
+}
+
+.meniuvisas{
+    width: 70%;
+    margin: auto;
+    z-index: 1000;
+}
+
+.uzkandziai{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+.uzkn{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.srb{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sriubos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.karstieji{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.patiekalai{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.uzsakymai{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.meniumygtukas{
+    width: 100%;
+}
